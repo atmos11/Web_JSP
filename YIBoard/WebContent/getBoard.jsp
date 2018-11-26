@@ -26,11 +26,11 @@
 <table border="1" cellpadding="0" cellspacing="0">
 	<tr>
 		<td bgcolor="orange" width="70">제목</td>
-		<td align="left"><input name="title"type="text"value=<%=board.getTitle() %>/></td>
+		<td align="left"><input name="title"type="text"value=<%=board.getTitle()%>></td>
 	</tr>
 	<tr>
 		<td bgcolor="orange">작성자</td>
-		<td align="left"><%=board.getWriter() %></td>
+		<td align="left"><%=board.getWriter()%></td>
 	</tr>
 	<tr>
 		<td bgcolor="orange" width="70">내용</td>
@@ -41,11 +41,11 @@
 	</tr>
 	<tr>
 		<td bgcolor="orange">등록일</td>
-		<td align="left"><%=board.getRegDate() %></td>
+		<td align="left"><%=board.getRegDate()%></td>
 	</tr>
 	<tr>
 		<td bgcolor="orange">조회수</td>
-		<td align="left"><%=board.getCnt() %></td>
+		<td align="left"><%=board.getCnt()%></td>
 	</tr>
 	<tr>
 		<td colspan="2" align="center"><input type="submit" value="글수정"/></td>	
